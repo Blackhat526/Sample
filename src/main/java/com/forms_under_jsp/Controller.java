@@ -31,6 +31,7 @@ public class Controller extends HttpServlet {
 		System.out.println(request.getParameter("gender"));
 		System.out.println(request.getParameter("language"));
 		System.out.println(request.getParameter("country"));
+		System.out.println("Hi");
 		getServletContext().getRequestDispatcher("/submit.jsp").forward(request, response);
 	}
 
@@ -44,6 +45,7 @@ public class Controller extends HttpServlet {
 		System.out.println(request.getParameter("gender"));
 		System.out.println(request.getParameter("language"));
 		System.out.println(request.getParameter("country"));
+		System.out.println("Hello");
 		getServletContext().getRequestDispatcher("/submit.jsp").forward(request, response);
 	
 	}
